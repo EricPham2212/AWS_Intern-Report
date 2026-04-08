@@ -52,7 +52,7 @@ Một phiên rất thú vị về cách AWS tận dụng AI để hỗ trợ qu�
 
 #### 2:45 PM - 3:30 PM | System Protection with Intelligent Detections on AWS
 Phiên chia sẻ tập trung vào bảo vệ hệ thống bằng các cơ chế phát hiện thông minh trên AWS. Đây là nội dung quan trọng giúp người tham dự hiểu rõ hơn về cách tăng cường năng lực giám sát, phát hiện sớm rủi ro và nâng cao khả năng phản ứng trước các mối đe dọa bảo mật trong môi trường cloud.
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/3dd5287d-ad3f-44cb-9624-f6e36874532f" />
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/c2def2c0-cc66-4858-aa17-e6d4ccc841c1" />
 
 #### 3:30 PM - 4:15 PM | Announcement of New Vietnam DirectConnect POP
 Phiên cuối ngày mang đến thông tin đáng chú ý về việc công bố **Vietnam DirectConnect POP** mới. Đây là một cập nhật rất quan trọng đối với doanh nghiệp và tổ chức tại Việt Nam, vì nó mở ra tiềm năng cải thiện kết nối chuyên dụng tới AWS với độ trễ thấp hơn, ổn định hơn và phù hợp hơn cho các kiến trúc hybrid cũng như hệ thống yêu cầu kết nối mạng chất lượng cao.
