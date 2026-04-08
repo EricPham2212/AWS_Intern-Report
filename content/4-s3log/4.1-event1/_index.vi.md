@@ -11,59 +11,54 @@ pre: " <b> 4.1. </b> "
 **Địa điểm:** Tòa nhà Bitexco Financial Tower (Tầng 26), Số 2 Hải Triều, Phường Bến Nghé (Sai Gon Ward), TP. Hồ Chí Minh  
 
 ---
-
 ### Giới thiệu sự kiện
 
-Cập nhật những thông tin mới nhất từ AWS re:Invent 2025 ngay tại Việt Nam! Sự kiện Ho Chi Minh City re:Invent Recap đã mang đến một cơ hội độc quyền để tìm hiểu sâu về các bản phát hành sản phẩm mới, các bản cập nhật dịch vụ và những best practice về kiến trúc trực tiếp từ các chuyên gia AWS.
+Cập nhật những thông tin mới nhất từ AWS re:Invent 2025 ngay tại Việt Nam! Sự kiện Ho Chi Minh City re:Invent Recap đã mang đến cơ hội để người tham dự tiếp cận trực tiếp các công nghệ, dịch vụ và best practices mới nhất từ hệ sinh thái AWS.
 
-Các lập trình viên, lãnh đạo doanh nghiệp và chuyên gia kỹ thuật đã cùng nhau hội tụ trong một ngày trọn vẹn với các workshop thực hành, phiên thảo luận kỹ thuật và giao lưu cộng đồng. Sự kiện giúp trang bị kiến thức và mở rộng kết nối để thúc đẩy các dự án, triển khai chiến lược AI và tạo ra sự đổi mới cùng AWS.
+Sự kiện quy tụ đông đảo lập trình viên, kỹ sư, chuyên gia kỹ thuật và đại diện doanh nghiệp trong một ngày chia sẻ chuyên sâu, kết nối cộng đồng và cập nhật định hướng công nghệ. Đây là dịp rất giá trị để mở rộng kiến thức, học hỏi kinh nghiệm thực tế và khám phá các hướng triển khai hiện đại trên nền tảng AWS.
 
 ![Networking Session](/AWS_Intern-Report/images/z7672271327499_b4b87423defc5349a8fb40e04a1d16d5.jpg)
 
 ---
 
-### Track 2: Analytics / ML / AI & Innovation
+### Track 1: Infrastructure & Application Modernization
 
-Tôi đã tham gia **Track 2**, chuyên đề tập trung hoàn toàn vào các xu hướng mới nhất của Analytics, Machine Learning và Generative AI. Dưới đây là tóm tắt lịch trình và trải nghiệm của tôi trong ngày:
+Tôi đã tham gia **Track 1**, với chủ đề tập trung vào **Infrastructure & Application Modernization**. Nội dung của track này xoay quanh hiện đại hóa hạ tầng, tối ưu ứng dụng, chiến lược hybrid cloud, container hóa, cơ sở dữ liệu chuyên biệt và bảo mật hệ thống trên AWS. Dưới đây là tóm tắt lịch trình và những nội dung nổi bật mà tôi ghi nhận được trong ngày:
 
-#### 9:30 AM - 10:15 AM | ML/AI & Innovation Keynotes
-Mở đầu ngày mới với bài phát biểu chính truyền cảm hứng về tầm nhìn của AWS đối với tương lai của Trí tuệ nhân tạo và Machine Learning.
+#### 9:30 AM - 10:15 AM | Infrastructure and Modernization Keynotes
+Phiên keynote mở đầu mang đến cái nhìn tổng quan về định hướng hiện đại hóa hạ tầng và ứng dụng trên AWS. Đây là phần trình bày giúp người tham dự nắm được bức tranh lớn về xu hướng cloud modernization, tối ưu vận hành và các cơ hội chuyển đổi hệ thống theo hướng linh hoạt hơn.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/b97cb8e9-2445-4896-8aa9-fefdf5ad36dc" />
 
-![MCP Demo](/AWS_Intern-Report/images/z7672273767344_cb99aa176ac9d025ddf05fd485c4c503.jpg)
+#### 10:15 AM - 11:00 AM | Hybrid Cloud & Multi-Cloud Strategy
+Phiên này tập trung vào chiến lược xây dựng và vận hành kiến trúc **Hybrid Cloud** và **Multi-Cloud**, giúp doanh nghiệp lựa chọn cách triển khai phù hợp giữa on-premises và cloud. Nội dung đặc biệt hữu ích trong việc hiểu cách tối ưu khả năng mở rộng, tính sẵn sàng và kiểm soát hệ thống trong môi trường nhiều nền tảng.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/f267aafe-5366-445c-863d-d42c8a50b3cc" />
 
-#### 10:15 AM - 11:00 AM | Get Started with Vector Database on S3
-Phiên trình bày được dẫn dắt bởi **Prapti Gupta**. Phong cách thuyết trình của cô vô cùng lôi cuốn và tràn đầy năng lượng—thậm chí nhiều người còn ví von rằng người tham dự rời đi với niềm vui sướng vượt xa cả khi ghé thăm xưởng đồ chơi của Ông già Noel hay Suối nguồn tươi trẻ! Một phiên học thực sự đáng nhớ về việc dùng S3 làm vector database.
-
-![Networking Session](/AWS_Intern-Report/images/z7672273786054_ede1dcb746ab243e152415d8345bfcb8.jpg)
-
-#### 11:00 AM - 11:45 AM | Natural Query Language in OpenSearch
-Khám phá cách giao diện ngôn ngữ tự nhiên đang giúp giảm bớt rào cản khi truy vấn các tập dữ liệu lớn, giúp việc khám phá dữ liệu trở nên trực quan hơn.
-
-![MCP Demo](/AWS_Intern-Report/images/z7672403402774_92c902abbedad17e73f56a9fdc12447d.jpg)
+#### 11:00 AM - 11:45 AM | Simplify Container-Based Applications on AWS
+Buổi chia sẻ đi sâu vào việc đơn giản hóa quá trình triển khai và quản lý các ứng dụng container trên AWS. Phiên này mang lại góc nhìn thực tế về cách hiện đại hóa ứng dụng, cải thiện quy trình vận hành và tận dụng hiệu quả các dịch vụ container để tăng tốc phát triển phần mềm.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/94986853-cf7d-477b-86e1-011f5aaf4c74" />
 
 #### 11:45 AM - 1:00 PM | Ăn trưa & Giao lưu (Lunch & Networking)
-Khoảng thời gian tuyệt vời để kết nối với những người bạn cùng ngành đang trên hành trình chuyển đổi số và cùng nhau chia sẻ góc nhìn từ các phiên buổi sáng.
+Khoảng thời gian tuyệt vời để kết nối với các anh chị trong ngành, trao đổi thêm về nội dung các phiên buổi sáng và mở rộng mối quan hệ với cộng đồng công nghệ, cloud và AWS.
+<img width="2560" height="1920" alt="image" src="https://github.com/user-attachments/assets/c91e3df7-9760-4604-b6eb-75e90957e6a9" />
 
-![Have Lunch Session](/AWS_Intern-Report/images/z7672273779375_e66ef123f715852db0b4060faef364a4.jpg)
 
-#### 1:00 PM - 1:45 PM | Enhance GenAI Applications by Leveraging New Version of Nova & Bedrock
-Tìm hiểu những tính năng mạnh mẽ mới ra mắt của các mô hình Amazon Nova và Bedrock API, hỗ trợ các nhà phát triển xây dựng ứng dụng Generative AI chuẩn production nhanh chóng hơn.
+#### 1:00 PM - 1:45 PM | Optimized Workload by Leveraging Purpose-Built Database on AWS
+Phiên này nhấn mạnh cách lựa chọn **purpose-built databases** phù hợp với từng loại workload để đạt được hiệu năng tốt hơn, tối ưu chi phí và nâng cao khả năng mở rộng. Đây là nội dung rất thực tế cho việc thiết kế kiến trúc dữ liệu hiện đại thay vì cố gắng dùng một loại cơ sở dữ liệu cho mọi nhu cầu.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/000c400f-ef72-4dfb-bd76-a839471defa8" />
 
-#### 1:45 PM - 2:30 PM | Working with AWS Resources through MCP
-Một phiên tìm hiểu sâu vô cùng thú vị về cách sử dụng Model Context Protocol (MCP) nhằm cung cấp cho các AI agent quyền truy cập an toàn và có căn cứ vào các tài nguyên AWS thực tế.
+#### 1:45 PM - 2:30 PM | AWS Transform & Kiro - AI-Powered Modernization
+Một phiên rất thú vị về cách AWS tận dụng AI để hỗ trợ quá trình hiện đại hóa hệ thống. Nội dung xoay quanh việc tăng tốc chuyển đổi ứng dụng, hỗ trợ đội ngũ kỹ thuật phân tích hệ thống hiện tại và rút ngắn thời gian nâng cấp nhờ các công cụ hiện đại hóa có hỗ trợ AI.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/87770571-e1c3-499c-bdc4-b3d4d52811f6" />
 
-![MCP Demo](/AWS_Intern-Report/images/z7672273776736_b5c9d6b78b67dc01d695df538d01df8b.jpg)
+#### 2:45 PM - 3:30 PM | System Protection with Intelligent Detections on AWS
+Phiên chia sẻ tập trung vào bảo vệ hệ thống bằng các cơ chế phát hiện thông minh trên AWS. Đây là nội dung quan trọng giúp người tham dự hiểu rõ hơn về cách tăng cường năng lực giám sát, phát hiện sớm rủi ro và nâng cao khả năng phản ứng trước các mối đe dọa bảo mật trong môi trường cloud.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/3dd5287d-ad3f-44cb-9624-f6e36874532f" />
 
-#### 2:45 PM - 3:30 PM | Multimodal Retrieval for Bedrock Knowledge Bases
-Học hỏi về các pipeline RAG nâng cao, kết hợp văn bản, hình ảnh và dữ liệu có cấu trúc để làm phong phú ứng dụng bằng khả năng truy xuất đa phương thức (multimodal).
-
-![MCP Demo](/AWS_Intern-Report/images/z7672403415173_012c124764f431fcee6c41b5c4f1bdfe.jpg)
-
-#### 3:30 PM - 4:15 PM | MLOps & Model Training at Scale with Amazon SageMaker AI
-Khép lại một ngày với các best practice để huấn luyện mô hình ở quy mô lớn và quản lý trọn vẹn vòng đời ML bằng công cụ SageMaker.
-
-![MCP Demo](/AWS_Intern-Report/images/z7672403420878_8fdd5413c81c9b859f7edd0c53436dc3.jpg)
+#### 3:30 PM - 4:15 PM | Announcement of New Vietnam DirectConnect POP
+Phiên cuối ngày mang đến thông tin đáng chú ý về việc công bố **Vietnam DirectConnect POP** mới. Đây là một cập nhật rất quan trọng đối với doanh nghiệp và tổ chức tại Việt Nam, vì nó mở ra tiềm năng cải thiện kết nối chuyên dụng tới AWS với độ trễ thấp hơn, ổn định hơn và phù hợp hơn cho các kiến trúc hybrid cũng như hệ thống yêu cầu kết nối mạng chất lượng cao.
+<img width="1766" height="2048" alt="image" src="https://github.com/user-attachments/assets/2e509733-94ff-4fab-9de1-beeebc33ef61" />
 
 ---
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/3c96e2e9-dda1-4e0a-a8b9-dac306333844" />
 
-Đây là một sự kiện tuyệt vời để gắn kết với các lãnh đạo AWS cũng như những người bạn trong ngành, giúp chúng tôi trang bị đầy đủ kiến thức và nguồn cảm hứng cho một năm sắp tới!
+Đây là một sự kiện rất ý nghĩa để cập nhật xu hướng mới nhất về hiện đại hóa hạ tầng và ứng dụng trên AWS, đồng thời là cơ hội tuyệt vời để kết nối với cộng đồng công nghệ, học hỏi từ các chuyên gia và tích lũy thêm nhiều góc nhìn thực tiễn cho định hướng phát triển trong tương lai.
