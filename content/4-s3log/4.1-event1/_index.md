@@ -7,66 +7,58 @@ pre: " <b> 4.1. </b> "
 
 # AWS re:Invent Recap HCMC
 
-**Date:** January 29th, 2026  
-**Location:** Bitexco Financial Tower (26th Floor), No. 2, Hai Trieu Street, Sai Gon Ward, Ho Chi Minh City  
+**Time:** January 29, 2026  
+**Location:** Bitexco Financial Tower Building (26th Floor), No. 2 Hai Trieu, Ben Nghe Ward (Sai Gon Ward), Ho Chi Minh City  
 
 ---
+### Event Introduction
 
-### About the Event
+Get the latest updates from AWS re:Invent 2025 right here in Vietnam! The Ho Chi Minh City re:Invent Recap event provided attendees with an opportunity to directly access the newest technologies, services, and best practices from the AWS ecosystem.
 
-Get the latest updates from AWS re:Invent 2025 right at our local shores! The Ho Chi Minh City re:Invent Recap provided an exclusive opportunity to deep dive into the latest product releases, service updates, and architectural best practices straight from AWS experts.
-
-Builders, business leaders, and technical professionals gathered for a full day of hands-on workshops, technical sessions, and networking. The event equipped the community with the knowledge and connections to accelerate projects, explore strategic AI implementations, and drive innovation with AWS.
+The event brought together a large number of developers, engineers, technical experts, and business representatives for a full day of in-depth sharing, community networking, and technology updates. It was a valuable opportunity to expand knowledge, learn from real-world experience, and explore modern implementation approaches on the AWS platform.
 
 ![Networking Session](/AWS_Intern-Report/images/z7672271327499_b4b87423defc5349a8fb40e04a1d16d5.jpg)
 
 ---
 
-### Track 2: Analytics / ML / AI & Innovation
+### Track 1: Infrastructure & Application Modernization
 
-I attended **Track 2**, which was entirely focused on the cutting edge of Analytics, Machine Learning, and Generative AI. Here is a recap of the day's agenda and my experiences:
+I participated in **Track 1**, which focused on **Infrastructure & Application Modernization**. This track revolved around infrastructure modernization, application optimization, hybrid cloud strategy, containerization, purpose-built databases, and system security on AWS. Below is a summary of the schedule and the key highlights I noted throughout the day:
 
+#### 9:30 AM - 10:15 AM | Infrastructure and Modernization Keynotes
+The opening keynote provided an overview of AWS’s direction for infrastructure and application modernization. This presentation helped attendees grasp the bigger picture of cloud modernization trends, operational optimization, and opportunities to transform systems in a more flexible way.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/b97cb8e9-2445-4896-8aa9-fefdf5ad36dc" />
 
-#### 9:30 AM - 10:15 AM | ML/AI & Innovation Keynotes
-Kicked off the day with inspiring keynotes covering AWS's vision for the future of AI and Machine Learning.
+#### 10:15 AM - 11:00 AM | Hybrid Cloud & Multi-Cloud Strategy
+This session focused on strategies for building and operating **Hybrid Cloud** and **Multi-Cloud** architectures, helping organizations choose the most suitable deployment model between on-premises and cloud. The content was especially useful for understanding how to optimize scalability, availability, and control in multi-platform environments.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/f267aafe-5366-445c-863d-d42c8a50b3cc" />
 
-![MCP Demo](/AWS_Intern-Report/images/z7672273767344_cb99aa176ac9d025ddf05fd485c4c503.jpg)
-
-#### 10:15 AM - 11:00 AM | Get Started with Vector Database on S3
-Hosted by the amazing **Prapti Gupta**. Her presentation style was exceptionally engaging—some might even say guests left more elated than visitors to Santa's Workshop or the Fountain of Youth! A truly memorable session on leveraging S3 for vector storage.
-
-![Networking Session](/AWS_Intern-Report/images/z7672273786054_ede1dcb746ab243e152415d8345bfcb8.jpg)
-
-#### 11:00 AM - 11:45 AM | Natural Query Language in OpenSearch
-Explored how natural language interfaces are lowering the barrier to querying large datasets, making data exploration more intuitive.
-
-![MCP Demo](/AWS_Intern-Report/images/z7672403402774_92c902abbedad17e73f56a9fdc12447d.jpg)
+#### 11:00 AM - 11:45 AM | Simplify Container-Based Applications on AWS
+This talk explored how to simplify the deployment and management of container-based applications on AWS. The session provided a practical perspective on application modernization, improving operational workflows, and effectively leveraging container services to accelerate software development.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/94986853-cf7d-477b-86e1-011f5aaf4c74" />
 
 #### 11:45 AM - 1:00 PM | Lunch & Networking
-A great time to connect with peers navigating similar digital transformation journeys and share insights from the morning sessions.
+This was a great opportunity to connect with professionals in the industry, discuss the morning sessions in more depth, and expand relationships within the technology, cloud, and AWS communities.
+<img width="2560" height="1920" alt="image" src="https://github.com/user-attachments/assets/c91e3df7-9760-4604-b6eb-75e90957e6a9" />
 
 
-![Have Lunch Session](/AWS_Intern-Report/images/z7672273779375_e66ef123f715852db0b4060faef364a4.jpg)
+#### 1:00 PM - 1:45 PM | Optimized Workload by Leveraging Purpose-Built Database on AWS
+This session emphasized how choosing the right **purpose-built databases** for specific workloads can deliver better performance, optimize costs, and improve scalability. It was very practical for designing modern data architectures instead of trying to use a single database type for every requirement.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/000c400f-ef72-4dfb-bd76-a839471defa8" />
 
-#### 1:00 PM - 1:45 PM | Enhance GenAI Applications by Leveraging New Version of Nova & Bedrock
-Covered the powerful new capabilities introduced in Amazon Nova models and Bedrock APIs, enabling developers to build production-grade Generative AI applications faster.
+#### 1:45 PM - 2:30 PM | AWS Transform & Kiro - AI-Powered Modernization
+This was a very interesting session on how AWS leverages AI to support system modernization. The content centered on accelerating application transformation, helping technical teams analyze existing systems, and shortening upgrade timelines through AI-assisted modernization tools.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/87770571-e1c3-499c-bdc4-b3d4d52811f6" />
 
-#### 1:45 PM - 2:30 PM | Working with AWS Resources through MCP
-A fascinating deep dive into using the Model Context Protocol (MCP) to give AI agents grounded and secure access to live AWS resources.
+#### 2:45 PM - 3:30 PM | System Protection with Intelligent Detections on AWS
+This session focused on protecting systems through intelligent detection mechanisms on AWS. It was an important topic that helped attendees better understand how to strengthen monitoring capabilities, detect risks earlier, and improve response capacity against security threats in cloud environments.
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/c2def2c0-cc66-4858-aa17-e6d4ccc841c1" />
 
-![MCP Demo](/AWS_Intern-Report/images/z7672273776736_b5c9d6b78b67dc01d695df538d01df8b.jpg)
-
-#### 2:45 PM - 3:30 PM | Multimodal Retrieval for Bedrock Knowledge Bases
-Learned about advanced RAG pipelines combining text, image, and structured data to enrich applications with multimodal retrieval capabilities.
-
-![MCP Demo](/AWS_Intern-Report/images/z7672403415173_012c124764f431fcee6c41b5c4f1bdfe.jpg)
-
-#### 3:30 PM - 4:15 PM | MLOps & Model Training at Scale with Amazon SageMaker AI
-Wrapped up the day with best practices for scalable model training and managing the entire ML lifecycle using SageMaker.
-
-![MCP Demo](/AWS_Intern-Report/images/z7672403420878_8fdd5413c81c9b859f7edd0c53436dc3.jpg)
+#### 3:30 PM - 4:15 PM | Announcement of New Vietnam DirectConnect POP
+The final session of the day delivered noteworthy information about the announcement of the new **Vietnam DirectConnect POP**. This is a very important update for businesses and organizations in Vietnam, as it opens up the potential for better dedicated connectivity to AWS with lower latency, greater stability, and stronger suitability for hybrid architectures and systems that require high-quality network connectivity.
+<img width="1766" height="2048" alt="image" src="https://github.com/user-attachments/assets/2e509733-94ff-4fab-9de1-beeebc33ef61" />
 
 ---
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/3c96e2e9-dda1-4e0a-a8b9-dac306333844" />
 
-This event was a fantastic opportunity to engage with AWS leadership and peers, leaving us equipped and inspired for the coming year!
-
+This was a highly meaningful event for updating the latest trends in infrastructure and application modernization on AWS, while also being a great opportunity to connect with the tech community, learn from experts, and gain more practical perspectives for future development directions.
