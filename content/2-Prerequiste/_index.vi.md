@@ -77,67 +77,67 @@ pre : " <b> 2. </b> "
 
 ## Thiết kế thành phần
 
-### 1. Lớp Thu Thập Dữ Liệu & Nhận Diện (Data Collection & Detection Layer)
+**1. Lớp Thu Thập Dữ Liệu & Nhận Diện (Data Collection & Detection Layer)**
 
 * **Nguồn dữ liệu:** Hệ thống tiếp nhận dữ liệu từ nhiều nguồn khác nhau, bao gồm thông tin do người dùng cung cấp (số điện thoại, tên miền, nội dung email), dữ liệu đóng góp từ cộng đồng (báo cáo, phản hồi), và các dịch vụ/API bên ngoài như WHOIS hoặc nguồn tra cứu domain.
 * **Tiếp nhận dữ liệu:** Backend triển khai trên Spring Boot và AWS Elastic Beanstalk chịu trách nhiệm tiếp nhận, chuẩn hóa và tiền xử lý dữ liệu đầu vào, đồng thời kích hoạt các tiến trình phân tích khi phát sinh dữ liệu mới.
 
-### 2. Lớp Xử Lý Sự Kiện (Event Processing Layer)
+**2. Lớp Xử Lý Sự Kiện (Event Processing Layer)**
 
 * **Định tuyến & xử lý yêu cầu:** Amazon API Gateway tiếp nhận request từ phía client, sau đó chuyển tiếp đến backend để thực hiện validation, xử lý nghiệp vụ và phân loại yêu cầu phù hợp.
 * **Xử lý bất đồng bộ:** Những tác vụ cần xử lý nền như phân tích AI, kiểm tra nội dung, hoặc xử lý không đồng bộ sẽ được chuyển sang AWS Lambda. Cơ chế event-driven có thể kết hợp với SNS hoặc các service nội bộ để tối ưu luồng xử lý.
 
-### 3. Lớp Điều Phối & Xử Lý Nghiệp Vụ (Orchestration & Business Logic Layer)
+**3. Lớp Điều Phối & Xử Lý Nghiệp Vụ (Orchestration & Business Logic Layer)**
 
 * **Điều phối trung tâm:** Backend đóng vai trò là bộ điều phối chính, kiểm soát toàn bộ quy trình từ tiếp nhận input, phân tích dữ liệu đến tổng hợp và trả kết quả cho người dùng.
 * **Xử lý nghiệp vụ:** Hệ thống tổng hợp dữ liệu từ nhiều nguồn như RDS, DynamoDB và các API bên ngoài; sau đó gọi các dịch vụ AI để phân tích nội dung, phát hiện hành vi đáng ngờ, tính toán điểm rủi ro và xác định mức cảnh báo.
 
-### 4. Lớp Xử Lý Dữ Liệu & Lưu Trữ (Data Processing & Storage Layer)
+**4. Lớp Xử Lý Dữ Liệu & Lưu Trữ (Data Processing & Storage Layer)**
 
 * **Lưu trữ dữ liệu:** Amazon RDS for MySQL được sử dụng cho dữ liệu quan hệ chính như người dùng, báo cáo, lịch sử tra cứu và domain; DynamoDB phục vụ các dữ liệu cần truy xuất nhanh hoặc mang tính thời gian thực; Amazon S3 dùng để lưu trữ tệp, hình ảnh và tài liệu liên quan.
 * **Hỗ trợ xử lý dữ liệu:** AWS Lambda đảm nhiệm các tác vụ ETL nhẹ, tiền xử lý dữ liệu và chuẩn bị dữ liệu đầu vào cho các mô hình AI hoặc các bước phân tích tiếp theo.
 
-### 5. Lớp AI & Phân Tích (AI & Analysis Layer)
+**5. Lớp AI & Phân Tích (AI & Analysis Layer)**
 
 * **Năng lực AI:** Amazon Bedrock được sử dụng để cung cấp khả năng phân tích thông minh đối với email, số điện thoại, tên miền và các nội dung nghi ngờ, đồng thời hỗ trợ giải thích lý do cảnh báo và vận hành chatbot tư vấn phòng tránh lừa đảo.
 * **Tích hợp AI an toàn:** AWS Lambda đóng vai trò trung gian khi giao tiếp với Bedrock, giúp kiểm soát truy cập, xử lý kết quả trả về và đảm bảo luồng tích hợp AI được an toàn, linh hoạt.
 
-### 6. Lớp Trình Bày & Tương Tác Người Dùng (Presentation & User Interaction Layer)
+**6. Lớp Trình Bày & Tương Tác Người Dùng (Presentation & User Interaction Layer)**
 
 * **Giao diện người dùng:** Frontend được xây dựng bằng React và có thể triển khai qua S3 kết hợp CloudFront để tối ưu phân phối nội dung. Ứng dụng giao tiếp với backend thông qua API Gateway theo cơ chế bảo mật phù hợp.
 * **Quản lý truy cập:** Việc xác thực người dùng và quản lý phiên đăng nhập được thực hiện thông qua AWS Cognito, hỗ trợ JWT và các cơ chế quản lý danh tính hiện đại.
 
-### 7. Lớp Bảo Mật & Giám Sát (Security & Monitoring Layer)
+**7. Lớp Bảo Mật & Giám Sát (Security & Monitoring Layer)**
 
 * **Bảo mật & kiểm soát truy cập:** Hệ thống áp dụng AWS Cognito cho xác thực, kết hợp AWS WAF, IAM, ACM (SSL/TLS) và Route 53 để tăng cường bảo mật, quản lý phân quyền và đảm bảo an toàn cho hạ tầng mạng.
 * **Giám sát vận hành:** Amazon CloudWatch được sử dụng để theo dõi logs, metrics và trạng thái hệ thống; SNS hỗ trợ gửi cảnh báo khi có sự cố; trong khi đó, AWS Secrets Manager lưu trữ và bảo vệ các thông tin nhạy cảm như credentials và API keys.
 
 ## 4. Lộ trình Khai triển Kỹ thuật
 
-### Bước 1: Xây dựng hạ tầng và cấu hình nền tảng
+**Bước 1: Xây dựng hạ tầng và cấu hình nền tảng**
 
 * **Mạng và bảo mật:** Thiết lập kiến trúc mạng trên AWS với VPC, phân tách Public Subnet cho các thành phần public-facing như Load Balancer/Internet và Private Subnet cho cơ sở dữ liệu. Đồng thời cấu hình Internet Gateway, Security Groups và các chính sách truy cập phù hợp để đảm bảo chỉ các dịch vụ cần thiết mới được phép kết nối.
 * **Triển khai backend cốt lõi:** Đưa ứng dụng backend Spring Boot lên AWS Elastic Beanstalk dưới dạng Docker container. Thiết lập Amazon RDS (MySQL) cho dữ liệu chính, DynamoDB cho các dữ liệu cần truy xuất nhanh như OTP, và Amazon S3 để lưu trữ tệp, hình ảnh hoặc tài liệu đính kèm.
 * **Khởi tạo dịch vụ nền:** Cấu hình AWS Cognito cho xác thực người dùng và hỗ trợ Google SSO. Đồng thời xây dựng các API nền tảng ban đầu như xác thực, quản lý dữ liệu threat/report và các API phục vụ dashboard quản trị.
 
-### Bước 2: Phát triển API công khai và Web Portal MVP
+**Bước 2: Phát triển API công khai và Web Portal MVP**
 
 * **Public Lookup API:** Xây dựng các API tra cứu công khai cho số điện thoại, tên miền và nội dung nghi ngờ nhằm phục vụ nhu cầu kiểm tra nhanh từ người dùng.
 * **Triển khai giao diện web:** Phát triển frontend bằng React.js và triển khai thông qua Amazon S3 kết hợp với CloudFront để tăng tốc phân phối nội dung.
 * **Hoàn thiện tính năng nền tảng:** Xây dựng luồng báo cáo lừa đảo cơ bản, dashboard thống kê ban đầu và cấu hình Route 53 để kết nối domain với hệ thống.
 
-### Bước 3: Hoàn thiện xử lý dữ liệu và nghiệp vụ lõi
+**Bước 3: Hoàn thiện xử lý dữ liệu và nghiệp vụ lõi**
 
 * **Xây dựng engine xử lý:** Tích hợp các dịch vụ tra cứu như WHOIS/API bên ngoài để kiểm tra domain, đồng thời xây dựng cơ chế chấm điểm rủi ro dựa trên luật (rule-based), dữ liệu cộng đồng và các tín hiệu phân tích nội dung.
 * **Tích hợp AI và xử lý bất đồng bộ:** Sử dụng AWS Lambda kết hợp với Amazon Bedrock để xử lý phân tích email, nội dung nghi ngờ, chatbot tư vấn và các tác vụ xử lý nền theo mô hình async.
   
-### Bước 4: Mở rộng tính năng và nâng cấp frontend
+**Bước 4: Mở rộng tính năng và nâng cấp frontend**
 
 * **Cải thiện UI/UX:** Hoàn thiện giao diện người dùng với dashboard chi tiết hơn, lịch sử tra cứu và trải nghiệm trực quan hơn cho các luồng kiểm tra.
 * **Mở rộng kênh tích hợp:** Phát triển và tích hợp browser extension để hỗ trợ cảnh báo website nghi ngờ theo thời gian thực ngay trên trình duyệt.
 * **Tối ưu trải nghiệm tổng thể:** Điều chỉnh hiệu năng API, giảm thời gian phản hồi và cải thiện luồng tương tác giữa frontend và backend.
 
-### Bước 5: Kiểm thử, bảo mật và tối ưu vận hành
+**Bước 5: Kiểm thử, bảo mật và tối ưu vận hành**
 
 * **Kiểm thử hệ thống:** Thực hiện đầy đủ các lớp kiểm thử gồm unit test, integration test và load test để đảm bảo tính ổn định trước khi mở rộng người dùng.
 * **Tăng cường bảo mật:** Áp dụng AWS WAF để hạn chế tấn công và lạm dụng API, cấu hình IAM Roles theo nguyên tắc phân quyền tối thiểu, đồng thời triển khai AWS ACM để quản lý chứng chỉ SSL/TLS.
