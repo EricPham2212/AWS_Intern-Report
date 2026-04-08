@@ -36,7 +36,7 @@ pre : " <b> 2. </b> "
 
 * **Simple user experience:** Provide a single platform to replace manual searching, enabling faster and more accurate verification.
   
-#### Benefits
+**Benefits**
 
 * Detect scam risks early from multiple types of input data such as phone numbers, domains, and digital content.
 * Provide clear, easy-to-understand risk warnings and support users in making safer decisions.
@@ -52,8 +52,6 @@ This is the cloud architecture diagram of the system:
 <img width="2448" height="1831" alt="aws_architecture drawio" src="https://github.com/user-attachments/assets/d8645511-e074-4cbb-b41f-21e613173038" />
 
 **AWS Services Used**
-
-#### AWS Services Used
 
 | AWS Services | Main Functions |
 |---|---|
