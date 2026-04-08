@@ -7,16 +7,24 @@ pre : " <b> 2. </b> "
 ---
 
 ## 1. Tóm tắt điều hành
-**AnTiScaQ** là nền tảng cảnh báo mối đe dọa (threat intelligence) tích hợp, được thiết kế để bảo vệ người dùng bằng cách tự động xác minh độ uy tín và mức độ rủi ro của số điện thoại, nội dung email và tên miền. Hệ thống tự động hóa toàn bộ quy trình từ việc thu thập dữ liệu (scraping), tiếp nhận báo cáo từ cộng đồng, chấm điểm rủi ro. Đây là **dự án in-house** do team tự phát triển, tập trung vào **MVP với chi phí tối ưu dưới $50/tháng** trong giai đoạn đầu, sử dụng Lambda, API Gateway và DynamoDB để đảm bảo hiệu năng cao khi có đột biến traffic và giữ chi phí vận hành ở mức thấp nhất.
+**AnTiScaQ** là một hệ thống kiểm tra và cảnh báo nguy cơ lừa đảo trực tuyến, được xây dựng nhằm giúp người dùng phát hiện sớm các dấu hiệu đáng ngờ. Hệ thống phân tích nhiều loại dữ liệu đầu vào như số điện thoại, tên miền và nội dung email để đánh giá độ uy tín và đưa ra cảnh báo theo mức độ rủi ro. Thay vì đưa ra kết luận mang tính pháp lý, AnTiScaQ tập trung vào việc cảnh báo, giải thích các dấu hiệu nghi vấn và hướng dẫn người dùng cách phòng tránh. Hệ thống hoạt động dựa trên việc thu thập dữ liệu, tiếp nhận báo cáo từ cộng đồng và áp dụng cơ chế chấm điểm rủi ro.
 
 ## 2. Tuyên bố vấn đề
 
 **Vấn đề hiện tại** 
-* Người dùng thường phải tìm kiếm Google thủ công hoặc dùng các cơ sở dữ liệu phân mảnh để kiểm tra số điện thoại/link đáng ngờ, gây tốn thời gian và rủi ro.
-* Quá trình thu thập dữ liệu cảnh báo mối đe dọa **chưa được tích hợp** và làm thủ công là chính.
-* Không có **workflow xác minh tự động** để đối chiếu các báo cáo lừa đảo.
-* Chi phí quá cao để mua API từ các nền tảng Threat Intel doanh nghiệp (như Recorded Future, VirusTotal).
-* Báo cáo yếu, **không real-time** khi các chiến dịch phishing mới bùng nổ.
+* Lừa đảo trực tuyến đang gia tăng nhanh chóng và ngày càng tinh vi, gây ra thiệt hại lớn cho người dùng và doanh nghiệp.
+
+* Thiếu vắng một hệ thống đáng tin cậy, khiến người dùng dễ đưa ra quyết định sai lầm.
+
+* Người dùng thường phải tìm kiếm thủ công qua các nền tảng trình duyệt (Google, Microsoft Edge, ...) hoặc dùng các cơ sở dữ liệu phân mảnh để kiểm tra số điện thoại/đường link đáng ngờ, gây tốn thời gian và rủi ro.
+
+* Các công cụ hiện có thường thiếu **khả năng phân tích ngữ cảnh nội dung**.
+  * Thiếu hụt dữ liệu từ **cộng đồng người dùng**.
+  * Không cung cấp **giải thích rõ ràng về mức độ rủi ro**.
+
+* Chi phí quá đắt đỏ để mua API từ các nền tảng Threat Intel doanh nghiệp (như Recorded Future, VirusTotal).
+
+* Báo cáo thường bị thiếu sót, **không theo thời gian thực (not real-time)** khi các chiến dịch phishing mới bùng nổ.
 
 **Giải pháp đề xuất**
 Hệ thống sử dụng **AWS Serverless Architecture** để tối ưu chi phí và tự động mở rộng:
