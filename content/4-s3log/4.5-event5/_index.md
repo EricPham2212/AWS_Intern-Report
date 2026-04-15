@@ -13,7 +13,7 @@ pre: " <b> 3.5. </b> "
 
 ### About the Event
 
-![Networking Session](/AWS_Intern-Report/images/z7713504050761_54bb9ca5954d69975fef6907cce2be73.jpg)
+<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/5e9851cf-f26b-438d-a7c8-290b6404ed75" />
 
 The "Cloud Mastery 2026 - #3" event brought in-depth knowledge about building secure, resilient, and well-architected network infrastructures on the cloud. Across three sessions, experts guided attendees in detail on how to design Virtual Private Clouds (VPC), manage Identity and Access Management (IAM) best practices, and deploy comprehensive network and application protection strategies against modern cyber threats.
 
