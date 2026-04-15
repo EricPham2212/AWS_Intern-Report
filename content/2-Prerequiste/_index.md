@@ -49,7 +49,13 @@ pre : " <b> 2. </b> "
 ## 3. Solution Architecture
 
 This is the cloud architecture diagram of the system:
-<img width="2448" height="1831" alt="aws_architecture drawio" src="https://github.com/user-attachments/assets/d8645511-e074-4cbb-b41f-21e613173038" />
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/d8645511-e074-4cbb-b41f-21e613173038"
+    alt="AWS architecture drawio"
+    width="900"
+  />
+</p>
 
 **AWS Services Used**
 
