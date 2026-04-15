@@ -12,7 +12,13 @@ pre: " <b> 3.5. </b> "
 ---
 
 ### Giới thiệu sự kiện
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/5e9851cf-f26b-438d-a7c8-290b6404ed75" />
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/5e9851cf-f26b-438d-a7c8-290b6404ed75"
+    alt="Figure 1"
+    width="900"
+  />
+</p>
 
 
 Sự kiện "Cloud Mastery 2026 - #3" đã mang đến những kiến thức chuyên sâu về cách xây dựng cơ sở hạ tầng mạng an toàn, bền bỉ và được kiến trúc tốt trên đám mây. Xuyên suốt ba phiên thảo luận, các chuyên gia đã hướng dẫn người tham dự chi tiết cách thiết kế Virtual Private Clouds (VPC), quản lý các thực tiễn tốt nhất của Identity and Access Management (IAM), và triển khai các chiến lược bảo vệ ứng dụng và mạng lưới toàn diện chống lại các mối đe dọa không gian mạng hiện đại.
@@ -23,10 +29,37 @@ Sự kiện "Cloud Mastery 2026 - #3" đã mang đến những kiến thức chu
 [cite_start]Phiên đầu tiên đã giải quyết các nền tảng cốt lõi của mạng lưới đám mây, minh họa cách cấu trúc và bảo mật luồng lưu lượng trong môi trường AWS[cite: 14].
 
 
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/e52e57f8-c096-4fbd-a0c5-ae3e1853fa61" />
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/352d1767-a913-485b-92e4-37459c48d9f9" />
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/28a0338b-1ef5-430d-a908-aefec99adfff" />
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/492efcda-6d91-447c-be6c-b45dc4d6a0ac" />
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/e52e57f8-c096-4fbd-a0c5-ae3e1853fa61"
+    alt="Figure 2"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/352d1767-a913-485b-92e4-37459c48d9f9"
+    alt="Figure 3"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/28a0338b-1ef5-430d-a908-aefec99adfff"
+    alt="Figure 4"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/492efcda-6d91-447c-be6c-b45dc4d6a0ac"
+    alt="Figure 5"
+    width="900"
+  />
+</p>
 **Những điểm chính:**
 * [cite_start]**Nền tảng Mạng AWS:** Khám phá các khái niệm nền tảng về VPC, CIDR, Subnets, và tầm quan trọng của việc kiểm soát "Bán kính ảnh hưởng" (Blast Radius)[cite: 15, 16, 29].
 * [cite_start]**Định tuyến Lưu lượng:** Trình bày chi tiết vai trò của Internet Gateways (IGW), Route Tables, và Elastic IPs trong việc quản lý lưu lượng vào và ra[cite: 17, 40, 41].
@@ -40,9 +73,29 @@ Sự kiện "Cloud Mastery 2026 - #3" đã mang đến những kiến thức chu
 
 Phiên thứ hai tập trung vào việc giải quyết các thách thức của kiểm soát truy cập, nhấn mạnh phương pháp tiếp cận zero-trust và quản lý quyền hạn tập trung trong AWS.
 
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/188a4990-33e2-4e0b-93e4-3d372b61bfd2" />
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/6aaab23c-7db5-49c8-8df4-5e140243bb43" />
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/bfbb0007-179a-4908-bf0a-19607e5976ef" />
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/188a4990-33e2-4e0b-93e4-3d372b61bfd2"
+    alt="Figure 6"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/6aaab23c-7db5-49c8-8df4-5e140243bb43"
+    alt="Figure 7"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/bfbb0007-179a-4908-bf0a-19607e5976ef"
+    alt="Figure 8"
+    width="900"
+  />
+</p>
 
 
 **Những điểm chính:**
@@ -58,9 +111,29 @@ Phiên thứ hai tập trung vào việc giải quyết các thách thức của
 
 Phiên cuối cùng đã mang đến một góc nhìn mới về việc che chắn khối lượng công việc khỏi các lỗ hổng và lưu lượng truy cập độc hại bằng cách sử dụng các dịch vụ bảo mật bản địa của AWS.
 
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/3b4e2681-6f10-4c31-a72f-bedccb351dc5" />
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/f49fb917-d87f-4fef-b6c0-3a5d4ed6c1cd" />
-<img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/df24d53b-56a8-46ec-b2f8-509dc27392b4" />
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/3b4e2681-6f10-4c31-a72f-bedccb351dc5"
+    alt="Figure 9"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/f49fb917-d87f-4fef-b6c0-3a5d4ed6c1cd"
+    alt="Figure 10"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/df24d53b-56a8-46ec-b2f8-509dc27392b4"
+    alt="Figure 11"
+    width="900"
+  />
+</p>
 
 **Những điểm chính:**
 * [cite_start]**AWS WAF (Web Application Firewall):** Bảo vệ các ứng dụng web khỏi các lỗ hổng web phổ biến bằng cách lọc các yêu cầu HTTP/HTTPS, đặc biệt là ngăn chặn các cuộc tấn công như SQL Injection và Cross-Site Scripting (XSS)[cite: 405, 406, 408, 409].
